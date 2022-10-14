@@ -12,11 +12,7 @@ body {
   color: var(--black);
   background-color: var(--white);
 }
-.night-mode {
-  background-color: var(--white);
-  color: var(--black);
-  line-height: 1.25;
-}
+
 ul {
   list-style: none;
 }
@@ -58,6 +54,7 @@ ul {
 }
 .change-site {
   font-family: inherit;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.25;
   letter-spacing: 0.02em;
@@ -73,6 +70,7 @@ ul {
 
 .adress {
   font-family: inherit;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.25;
   letter-spacing: 0.02em;
@@ -140,6 +138,7 @@ ul {
 }
 .photo-header-studio {
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: var(--black);
@@ -157,10 +156,10 @@ ul {
 
 .buttons-panel {
   font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
   background: var(--lightgrey);
   border-radius: 4px;
-
-  font-size: 16px;
   line-height: 1.25;
   text-align: center;
   letter-spacing: 0.03em;
@@ -172,7 +171,6 @@ ul {
   height: 38px;
   background: var(--lightblue);
   border-radius: 4px;
-
   font-size: 16px;
   line-height: 1.25;
   text-align: center;
