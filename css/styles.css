@@ -20,12 +20,7 @@ body {
 ul {
   list-style: none;
 }
-.container {
-  display: inline-block;
-}
-.content {
-  display: inline-block;
-}
+
 .logo {
   font-family: inherit;
   font-weight: 700;
@@ -143,6 +138,14 @@ ul {
   letter-spacing: 0.06em;
   color: #212121;
   color: var(--black);
+}
+
+.container {
+  box-sizing: border-box;
+  padding: 0 15px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* portfolio */
