@@ -10,53 +10,55 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/modern.normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio</title>
   </head>
   <body>
     <header>
-      <div class="container">
-        <div class="header-container">
-          <nav>
-            <ul class="menu">
-              <li>
-                <a class="logo" href="./index.html"
-                  ><p><span class="web">Web</span>Studio</p></a
-                >
-              </li>
+      <div class="background-header">
+        <div class="container">
+          <div class="header-container">
+            <nav>
+              <ul class="menu">
+                <li>
+                  <a class="logo" href="./index.html"
+                    ><p><span class="web">Web</span>Studio</p></a
+                  >
+                </li>
 
-              <li>
-                <a class="change-site" href="./index.html"
-                  ><span class="margin-studio">Studio</span></a
-                >
-              </li>
+                <li>
+                  <a class="change-site" href="./index.html"
+                    ><span class="margin-studio">Studio</span></a
+                  >
+                </li>
 
+                <li>
+                  <a class="change-site" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                  <a class="change-site" href="#">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+            <ul class="menu-links">
               <li>
-                <a class="change-site" href="./portfolio.html">Portfolio</a>
+                <a class="adress" href="info@devstudio.com" target="_blank"
+                  >info@devstudio.com
+                </a>
               </li>
               <li>
-                <a class="change-site" href="#">Contacts</a>
+                <a class="adress" href="+380961111111" target="_blank"
+                  >+38 096 111 11 11</a
+                >
               </li>
             </ul>
-          </nav>
-          <ul class="menu-links">
-            <li>
-              <a class="adress" href="info@devstudio.com" target="_blank"
-                >info@devstudio.com
-              </a>
-            </li>
-            <li>
-              <a class="adress" href="+380961111111" target="_blank"
-                >+38 096 111 11 11</a
-              >
-            </li>
-          </ul>
+          </div>
         </div>
       </div>
     </header>
     <main>
-      <div class="main-container">
+      <section class="section">
         <div class="container">
           <ul class="buttons-panel">
             <li><button type="button" class="button-one">All</button></li>
@@ -70,115 +72,144 @@
             </li>
           </ul>
         </div>
+
         <div class="container">
           <ul class="photo-description">
-            <li>
-              <img
-                src="./images/tehnoduck.jpg"
-                alt="black laptop with open website"
-                height="230"
-              />
-              <p class="photo-header-portfolio"><strong>Technoduck</strong></p>
-              <p>Web-site</p>
+            <li class="photo-border-portfolio">
+              <figure class="figure">
+                <img
+                  src="./images/tehnoduck.jpg"
+                  alt="black laptop with open website"
+                />
+                <div class="margin-portfolio">
+                  <p class="photo-header-portfolio">
+                    <strong>Technoduck</strong>
+                  </p>
+                  <p>Web-site</p>
+                </div>
+              </figure>
             </li>
 
-            <li>
-              <img
-                src="./images/basketballposter.jpg"
-                alt="Poster New Orlean vs Golden Star"
-                height="230"
-              />
-              <p class="photo-header-portfolio">
-                <strong>Poster New Orlean vs Golden Star</strong>
-              </p>
-              <p>Design</p>
+            <li class="photo-border-portfolio">
+              <figure class="figure">
+                <img
+                  src="./images/basketballposter.jpg"
+                  alt="Poster New Orlean vs Golden Star"
+                />
+                <div class="margin-portfolio">
+                  <p class="photo-header-portfolio">
+                    <strong>Poster New Orlean vs Golden Star</strong>
+                  </p>
+                  <p>Design</p>
+                </div>
+              </figure>
             </li>
 
-            <li>
-              <img
-                src="./images/seafood.jpg"
-                alt="sea food restaurant logo with blue fish"
-                height="230"
-              />
-              <p class="photo-header-portfolio">
-                <strong>SeaFood Restaurant</strong>
-              </p>
-              <p>Apps</p>
+            <li class="photo-border-portfolio">
+              <figure class="figure">
+                <img
+                  src="./images/seafood.jpg"
+                  alt="sea food restaurant logo with blue fish"
+                />
+                <div class="margin-portfolio">
+                  <p class="photo-header-portfolio">
+                    <strong>SeaFood Restaurant</strong>
+                  </p>
+                  <p>Apps</p>
+                </div>
+              </figure>
             </li>
 
-            <li>
-              <img
-                src="./images/projectprime.jpg"
-                alt="black headphones"
-                height="230"
-              />
-              <p class="photo-header-portfolio">
-                <strong>Project Prime</strong>
-              </p>
-              <p>Marketing</p>
+            <li class="photo-border-portfolio">
+              <figure class="figure">
+                <img src="./images/projectprime.jpg" alt="black headphones" />
+                <div class="margin-portfolio">
+                  <p class="photo-header-portfolio">
+                    <strong>Project Prime</strong>
+                  </p>
+                  <p>Marketing</p>
+                </div>
+              </figure>
             </li>
 
-            <li>
-              <img
-                src="./images/projectboxes.jpg"
-                alt="white and bronw boxes"
-                height="230"
-              />
-              <p class="photo-header-portfolio">
-                <strong>Project Boxes</strong>
-              </p>
-              <p>Apps</p>
+            <li class="photo-border-portfolio">
+              <figure class="figure">
+                <img
+                  src="./images/projectboxes.jpg"
+                  alt="white and bronw boxes"
+                />
+                <div class="margin-portfolio">
+                  <p class="photo-header-portfolio">
+                    <strong>Project Boxes</strong>
+                  </p>
+                  <p>Apps</p>
+                </div>
+              </figure>
             </li>
 
-            <li>
-              <img
-                src="./images/inspiration.jpg"
-                alt="white monitor with open app"
-                height="230"
-              />
-              <p class="photo-header-portfolio">
-                <strong>Inspiration has no Borders</strong>
-              </p>
-              <p>Web-site</p>
+            <li class="photo-border-portfolio">
+              <figure class="figure">
+                <img
+                  src="./images/inspiration.jpg"
+                  alt="white monitor with open app"
+                />
+                <div class="margin-portfolio">
+                  <p class="photo-header-portfolio">
+                    <strong>Inspiration has no Borders</strong>
+                  </p>
+                  <p>Web-site</p>
+                </div>
+              </figure>
             </li>
 
-            <li>
-              <img
-                src="./images/limited.jpg"
-                alt="open book in middle page"
-                height="230"
-              />
-              <p class="photo-header-portfolio">
-                <strong>Limited Edition</strong>
-              </p>
-              <p>Design</p>
+            <li class="photo-border-portfolio">
+              <figure class="figure">
+                <img
+                  src="./images/limited.jpg"
+                  alt="open book in middle page"
+                />
+                <div class="margin-portfolio">
+                  <p class="photo-header-portfolio">
+                    <strong>Limited Edition</strong>
+                  </p>
+                  <p>Design</p>
+                </div>
+              </figure>
             </li>
 
-            <li>
-              <img
-                src="./images/projectlab.jpg"
-                alt="
+            <li class="photo-border-portfolio">
+              <figure class="figure">
+                <img
+                  src="./images/projectlab.jpg"
+                  alt="
             white label with the words Lable Tag"
-                height="230"
-              />
-              <p class="photo-header-portfolio"><strong>Project LAB</strong></p>
-              <p>Marketing</p>
+                />
+                <div class="margin-portfolio">
+                  <p class="photo-header-portfolio">
+                    <strong>Project LAB</strong>
+                  </p>
+                  <p>Marketing</p>
+                </div>
+              </figure>
             </li>
 
-            <li>
-              <img
-                src="./images/growing.jpg"
-                alt="person writing something on laptop"
-                height="230"
-              />
-              <p class="photo-header-portfolio">
-                <strong>Growing Business</strong>
-              </p>
-              <p>Apps</p>
+            <li class="photo-border-portfolio">
+              <figure class="figure">
+                <img
+                  src="./images/growing.jpg"
+                  alt="person writing something on laptop"
+                />
+                <div class="margin-portfolio">
+                  <p class="photo-header-portfolio">
+                    <strong>Growing Business</strong>
+                  </p>
+                  <p>Apps</p>
+                </div>
+              </figure>
             </li>
           </ul>
         </div>
-      </div>
+      </section>
     </main>
     <div class="background-footer">
       <div class="container">
