@@ -251,6 +251,7 @@ ul {
   padding-left: 290px;
   padding-right: 290px;
   padding-bottom: 50px;
+  gap: 10px;
 }
 
 .button-one {
