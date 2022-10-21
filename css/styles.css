@@ -53,6 +53,7 @@ ul {
 .header-container {
   box-sizing: border-box;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   background-color: var(--white);
@@ -61,6 +62,7 @@ ul {
 
 .menu {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   gap: 53px;
@@ -88,6 +90,7 @@ ul {
 
 .whatwedo-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   gap: 30px;
@@ -110,6 +113,7 @@ ul {
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: var(--grey);
+  flex-wrap: wrap;
 }
 .photo-border-team {
   border: 1px;
@@ -262,10 +266,9 @@ ul {
 
 .buttons-panel {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  padding-left: 290px;
-  padding-right: 290px;
+  margin-left: 290px;
   margin-bottom: 50px;
   gap: 10px;
 }
