@@ -13,12 +13,20 @@ body {
   background-color: var(--white);
 }
 
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
 ul {
   list-style: none;
   padding-left: 0;
 }
 
 /* classes */ /* classes */ /* classes */ /* classes */ /* classes */
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -38,6 +46,7 @@ ul {
 /* flexbox classes */ /* flexbox classes */ /* flexbox classes */
 
 .background-header {
+  box-sizing: border-box;
   border-bottom: 1px solid #ececec;
 }
 
@@ -47,7 +56,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   background-color: var(--white);
-  height: 80px;
+  padding: 24px 0;
 }
 
 .menu {
@@ -66,7 +75,9 @@ ul {
   align-items: center;
   gap: 3em;
 }
+
 .background-main-text {
+  box-sizing: border-box;
   background-color: var(--darkblue);
 }
 .main-text-container {
@@ -74,6 +85,7 @@ ul {
   align-items: center;
   padding: 200px 0 200px 0;
 }
+
 .whatwedo-container {
   display: flex;
   justify-content: space-between;
@@ -81,6 +93,7 @@ ul {
   gap: 30px;
 }
 .background-team {
+  box-sizing: border-box;
   background-color: var(--lightgrey);
 }
 .team-container {
@@ -91,7 +104,7 @@ ul {
 }
 .photo-team {
   display: flex;
-  gap: 40px;
+  gap: 30px;
   text-align: center;
   font-size: 16px;
   line-height: 1.25;
@@ -107,11 +120,12 @@ ul {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+
 .background-footer {
+  box-sizing: border-box;
   background-color: var(--darkblue);
 }
 .footer-container {
-  box-sizing: border-box;
   color: var(--white);
   padding: 60px 0px 60px 0px;
 }
@@ -199,6 +213,7 @@ ul {
   color: var(--white);
   border: none;
   border-radius: 4px;
+  margin-top: 30px;
 }
 
 .section-headers {
@@ -209,7 +224,6 @@ ul {
   letter-spacing: 0.03em;
   color: var(--black);
   margin-bottom: 50px;
-  margin-top: 0;
 }
 
 .description-header {
@@ -237,7 +251,9 @@ ul {
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: var(--black);
-  margin-bottom: 10px;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 10px;
 }
 
 /* portfolio */ /* portfolio */ /* portfolio */
@@ -250,7 +266,7 @@ ul {
   justify-content: space-between;
   padding-left: 290px;
   padding-right: 290px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   gap: 10px;
 }
 
