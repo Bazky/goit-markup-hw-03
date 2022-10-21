@@ -350,6 +350,8 @@ ul {
   line-height: 1.25;
   letter-spacing: 0.06em;
   color: var(--black);
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .photo-description {
   display: flex;
